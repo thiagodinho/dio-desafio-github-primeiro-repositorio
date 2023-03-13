@@ -1,0 +1,38 @@
+*INTRODUÇÃO AO GIT E AO GITHUB*
+
+Git e sua importância:
+- sistema de versionamneto de código distribuído
+- Criado por Linus Torvalds, que não estava contente com os softwares de versionamento da época
+- Benefícios: Controle de versão, armazenamento em nuvem, trabalho em equipe, melhora do seu código, reconhecimento
+
+
+Comandos básicos terminal:
+- CLI - command line interface (terminal)
+- dir: lista os diretórios contidos numa pasta
+- cd: navega entre as pastas
+- cd / : volta pra base do C:
+- cd .. : volta/sai de uma pasta
+- cls : limpa os comandos da tela
+- tab : auto-completa a plavra (pastas, arquivos)
+- mkdir : cria uma pasta
+- echo : printa um texto no terminal
+- echo > : redireciona o fluxo (pega a saída que seria printada no terminal e passa pra outro lugar, arquivo etc)
+- del : deleta arquivos
+- seta pra cima : navega pelos comandos que foram utilizados anteriormente
+- rmdir : deleta repositório
+
+
+Funcionamento do Git:
+- SHA1: algorítmo de encriptação que gera um conjunto único de caracteres de 40 digitos
+- Blobs: bloco básico de composição; contém metadados (tipo do objeto, tamanho, \0 e o conteúdo);
+- Tree: armazena e manipula Blobs; contém metadados (tamanho, \0, blob, sha1 do blob e o nome do arquivo); as Trees podem apontar para blobs e outras árvores;
+- Commit: objeto que junta tudo e dá sentido a alteração que está sendo realizada. 
+    - Aponta para trees, parente (o último commit realizado antes dele), um autor, uma mensagem e um timestamp.
+    - Também possuem um sha1. 
+- Chave SSH: forma de estabelcer uma conexão segura e encriptada entre duas maquinas (ou máquina e servidor).
+   - chave pública e chave privada.
+- Token de acesso pessoal
+   - se parece mais com o modo tradicional de usar login e senha, mas utiliza o token ao inves da senha
+
+Primeiros comandos com o git:
+- 
